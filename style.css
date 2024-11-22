@@ -4,3 +4,35 @@ body{
     flex-direction: column;
     align-items: center;
 }
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 500px;
+    justify-content: space-around; 
+}
+
+.top{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 500px;
+    justify-content: space-around;
+}
+
+.bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 500px;
+    margin-top: 15px;
+}
+
+.sketchpad{
+    width: 500px;
+    height: 500px;
+    display: grid;
+    border: 3px solid #ffc107;
+}
